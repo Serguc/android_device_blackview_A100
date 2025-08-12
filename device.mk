@@ -11,16 +11,10 @@ LOCAL_PATH := device/blackview/A100
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl \
     android.hardware.boot@1.0-service \
-    android.hardware.boot@1.0-impl-1.1-mtkimpl
-
+    android.hardware.boot@1.0-impl.recovery
+    
 PRODUCT_PACKAGES += \
-    bootctrl.mt6771
-
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
-    bootctrl.mt6771 \
-    libgptutils \
-    libz \
-    libcutils
+    bootctrl
 
 PRODUCT_PACKAGES += \
     otapreopt_script \
@@ -32,12 +26,13 @@ PRODUCT_PACKAGES += \
 # Fastbootd
 PRODUCT_PACKAGES += \
     fastbootd \
-    android.hardware.fastboot@1.0-impl-mtk
+    android.hardware.fastboot@1.0-implmtk
 
 # Health HAL
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
     android.hardware.health@2.1-service \
+    android.hardware.health@2.1-impl.recovery
 
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
