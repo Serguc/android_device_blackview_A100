@@ -19,6 +19,7 @@ AB_OTA_PARTITIONS += \
     system \
     vendor \
     product
+
 BOARD_USES_RECOVERY_AS_BOOT := true
 
 # Architecture
