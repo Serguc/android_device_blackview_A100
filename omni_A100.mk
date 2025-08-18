@@ -16,7 +16,7 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 $(call inherit-product, device/blackview/A100/device.mk)
 
 PRODUCT_DEVICE := A100
-PRODUCT_NAME := omni_A100
+PRODUCT_NAME := twrp_A100
 PRODUCT_BRAND := Blackview
 PRODUCT_MODEL := A100
 PRODUCT_MANUFACTURER := blackview
