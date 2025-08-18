@@ -6,6 +6,6 @@
 #
 
 COMMON_LUNCH_CHOICES := \
-                    omni_A100-user \
-                    omni_A100-userdebug \
-                    omni_A100-eng
+                    twrp_A100-user \
+                    twrp_A100-userdebug \
+                    twrp_A100-eng
